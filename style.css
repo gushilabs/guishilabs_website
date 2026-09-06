@@ -739,8 +739,14 @@
   .-mx-\[22px\] {
     margin-inline: calc(22px * -1);
   }
+  .mx-2 {
+    margin-inline: calc(var(--spacing) * 2);
+  }
   .mx-auto {
     margin-inline: auto;
+  }
+  .-mt-1 {
+    margin-top: calc(var(--spacing) * -1);
   }
   .-mt-\[2px\] {
     margin-top: calc(2px * -1);
@@ -859,6 +865,9 @@
   .mb-\[60px\] {
     margin-bottom: 60px;
   }
+  .ml-1\.5 {
+    margin-left: calc(var(--spacing) * 1.5);
+  }
   .box {
     .keep-signed:checked ~ &span {
       border-color: var(--color-primary);
@@ -914,6 +923,9 @@
   }
   .h-3 {
     height: calc(var(--spacing) * 3);
+  }
+  .h-6 {
+    height: calc(var(--spacing) * 6);
   }
   .h-9 {
     height: calc(var(--spacing) * 9);
@@ -1075,6 +1087,9 @@
   }
   .w-3 {
     width: calc(var(--spacing) * 3);
+  }
+  .w-6 {
+    width: calc(var(--spacing) * 6);
   }
   .w-7 {
     width: calc(var(--spacing) * 7);
@@ -1635,6 +1650,9 @@
   }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
+  }
+  .pb-\[2px\] {
+    padding-bottom: 2px;
   }
   .pb-\[46px\] {
     padding-bottom: 46px;
