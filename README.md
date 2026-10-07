@@ -1,2 +1,2 @@
-# guishilabs_website
-Guishilabs Website
+# gushilabs_website
+Gushilabs Website
